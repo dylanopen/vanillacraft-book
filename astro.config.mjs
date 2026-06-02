@@ -17,6 +17,13 @@ export default defineConfig({
 			],
 			sidebar: [
 				'',
+				{
+					label: 'Joining Vanillacraft',
+					badge: 'new players',
+					items: [
+						'join/how',
+					],
+				}
 			],
 		}),
 	],

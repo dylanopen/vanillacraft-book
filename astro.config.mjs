@@ -24,6 +24,7 @@ export default defineConfig({
 						'join',
 						'join/discord',
 						'join/link',
+						'join/minecraft',
 						'join/tour',
 					],
 				},

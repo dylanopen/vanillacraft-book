@@ -23,6 +23,7 @@ export default defineConfig({
 					items: [
 						'join/how',
 						'join/discord',
+						'join/tour',
 					],
 				},
 				{

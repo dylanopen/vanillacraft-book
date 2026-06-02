@@ -2,7 +2,7 @@
 title: Getting a tour
 ---
 
-Once you've [joined Vanillacraft for the first time](/join/how), you may well
+Once you've [joined Vanillacraft for the first time](/join), you may well
 want to be shown around the server!
 
 Often, one of our staff members will be around to give you a tour, but if not,

@@ -21,7 +21,7 @@ export default defineConfig({
 					label: 'Joining Vanillacraft',
 					collapsed: true,
 					items: [
-						'join/how',
+						'join',
 						'join/discord',
 						'join/tour',
 					],

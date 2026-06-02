@@ -19,7 +19,7 @@ export default defineConfig({
 				'',
 				{
 					label: 'Joining Vanillacraft',
-					badge: 'new players',
+					collapsed: true,
 					items: [
 						'join/how',
 						'join/discord',
@@ -27,12 +27,27 @@ export default defineConfig({
 				},
 				{
 					label: 'Application Process',
-					badge: 'new players',
+					collapsed: true,
 					items: [
 						'application/guidelines',
 						'application/ideas',
 					],
 				},
+				{
+					label: 'Rules',
+					collapsed: true,
+					items: [
+						'rules',
+						'rules/respect',
+						'rules/griefing',
+						'rules/stealing',
+						'rules/pvp',
+						'rules/mods',
+						'rules/chat',
+						'rules/advertising',
+						'rules/inviting',
+					],
+				}
 			],
 		}),
 	],

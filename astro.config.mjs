@@ -24,7 +24,15 @@ export default defineConfig({
 						'join/how',
 						'join/discord',
 					],
-				}
+				},
+				{
+					label: 'Application Process',
+					badge: 'new players',
+					items: [
+						'application/guidelines',
+						'application/ideas',
+					],
+				},
 			],
 		}),
 	],

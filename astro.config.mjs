@@ -22,6 +22,7 @@ export default defineConfig({
 					badge: 'new players',
 					items: [
 						'join/how',
+						'join/discord',
 					],
 				}
 			],

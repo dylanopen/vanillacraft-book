@@ -55,6 +55,7 @@ export default defineConfig({
 					collapsed: true,
 					items: [
 						'staff',
+						'staff/apply',
 					],
 				},
 				{

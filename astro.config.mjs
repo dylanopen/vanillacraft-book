@@ -1,4 +1,3 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightCatppuccin from '@catppuccin/starlight'
@@ -6,7 +5,7 @@ import starlightCatppuccin from '@catppuccin/starlight'
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'The Vanillacraft Handbook',
+			title: 'The little handbook for Vanillacraft',
 			social: [
 				{ icon: 'external', label: 'Vanillacraft website', href: 'https://vanillacraft.org' },
 				{ icon: 'discord', label: 'Join our discord!', href: 'https://discord.gg/EFygPtvrvn' },
@@ -17,25 +16,6 @@ export default defineConfig({
 			],
 			sidebar: [
 				'',
-				{
-					label: 'Joining Vanillacraft',
-					collapsed: true,
-					items: [
-						'join',
-						'join/discord',
-						'join/link',
-						'join/minecraft',
-						'join/tour',
-					],
-				},
-				{
-					label: 'Application Process',
-					collapsed: true,
-					items: [
-						'application/guidelines',
-						'application/ideas',
-					],
-				},
 				{
 					label: 'Rules',
 					collapsed: true,
@@ -50,7 +30,40 @@ export default defineConfig({
 						'rules/advertising',
 						'rules/inviting',
 					],
-				}
+				},
+				{
+					label: 'Joining Vanillacraft',
+					collapsed: true,
+					items: [
+						'join',
+						'join/discord',
+						'join/link',
+						'join/minecraft',
+						'join/tour',
+					],
+				},
+				{
+					label: 'Writing a great application',
+					collapsed: true,
+					items: [
+						'application/guidelines',
+						'application/ideas',
+					],
+				},
+				{
+					label: 'Tickets',
+					collapsed: true,
+					items: [
+
+					],
+				},
+				{
+					label: 'Market',
+					collapsed: true,
+					items: [
+
+					]
+				},
 			],
 		}),
 	],

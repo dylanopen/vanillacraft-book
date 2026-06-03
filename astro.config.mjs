@@ -56,6 +56,7 @@ export default defineConfig({
 					items: [
 						'staff',
 						'staff/apply',
+						'staff/report',
 					],
 				},
 				{

@@ -57,6 +57,13 @@ export default defineConfig({
 						'staff',
 						'staff/apply',
 						'staff/report',
+						{
+							label: 'Meet the staff team',
+							collapsed: true,
+							items: [
+								'staff/dylancode',
+							],
+						},
 					],
 				},
 				{

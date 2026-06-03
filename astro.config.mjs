@@ -5,7 +5,7 @@ import starlightCatppuccin from '@catppuccin/starlight'
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'The little handbook for Vanillacraft',
+			title: 'Vanillacraft\'s little book',
 			social: [
 				{ icon: 'external', label: 'Vanillacraft website', href: 'https://vanillacraft.org' },
 				{ icon: 'discord', label: 'Join our discord!', href: 'https://discord.gg/EFygPtvrvn' },
@@ -61,7 +61,6 @@ export default defineConfig({
 					label: 'Market',
 					collapsed: true,
 					items: [
-
 					]
 				},
 			],

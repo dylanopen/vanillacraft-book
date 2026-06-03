@@ -79,7 +79,7 @@ export default defineConfig({
 					label: 'Tickets',
 					collapsed: true,
 					items: [
-
+						'ticket/create',
 					],
 				},
 				{

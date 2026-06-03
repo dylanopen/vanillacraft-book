@@ -51,6 +51,13 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Staff team',
+					collapsed: true,
+					items: [
+						'staff',
+					],
+				},
+				{
 					label: 'Tickets',
 					collapsed: true,
 					items: [
